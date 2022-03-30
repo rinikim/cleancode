@@ -1,3 +1,27 @@
+GET http://localhost:8888/api/calc/apartment/0?actionType=PURCHASE
+
+<> 2022-03-30T125533.500.json
+
+###
+
+GET http://localhost:8888/api/calc/apartment/1?actionType=RENT
+
+<> 2022-03-30T125502.200.json
+
+###
+
+GET http://localhost:8888/api/calc/apartment/1?actionType=PURCHASE
+
+<> 2022-03-30T125452.200.json
+
+###
+
+GET http://localhost:8888/api/calc/apartment/1?actionType=PURCHASE
+
+<> 2022-03-30T124027.500.json
+
+###
+
 GET http://localhost:8888/api/calc/brokerage?actionType=RENT&price=1000000000
 
 <> 2022-03-30T104217.200.json
