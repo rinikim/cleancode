@@ -1,0 +1,38 @@
+GET http://localhost:8888/api/calc/brokerage?actionType=RENT&price=1000000000
+
+<> 2022-03-30T104217.200.json
+
+###
+
+GET http://localhost:8888/api/calc/brokerage?actionType=RENT&price=1000000000
+
+<> 2022-03-30T104213.200.json
+
+###
+
+GET http://localhost:8888/api/calc/brokerage?actionType=PURCHASE&price=1000000000
+
+<> 2022-03-30T104202.200.json
+
+###
+
+GET http://localhost:8888/api/calc/brokerage?actionType=RENT&price=1000000000
+
+###
+
+GET http://localhost:8888/api/calc/brokerage?actionType=PURCHASE&price=1000000000
+
+###
+
+GET http://localhost:8888/api/ping
+
+<> 2022-03-30T085836.200.txt
+
+###
+
+GET http://localhost:8888/api/ping
+
+<> 2022-03-30T085706.200.txt
+
+###
+
