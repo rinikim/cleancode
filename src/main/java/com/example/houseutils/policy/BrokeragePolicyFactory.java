@@ -1,6 +1,8 @@
 package com.example.houseutils.policy;
 
 import com.example.houseutils.constants.ActionType;
+import com.example.houseutils.exception.ErrorCode;
+import com.example.houseutils.exception.HouseUtilsException;
 
 public class BrokeragePolicyFactory {
 
@@ -11,7 +13,7 @@ public class BrokeragePolicyFactory {
             case PURCHASE:
                 return new PurchaseBrokeragePolicy();
             default:
-                throw new IllegalArgumentException("해당 ActionType에 대한 정책이 존재하지 않습니다.");
+                throw new HouseUtilsException(ErrorCode.INVALID_REQUEST, "해당 ActionType에 대한 정책이 존재하지 않습니다.");
         }
     }
 }

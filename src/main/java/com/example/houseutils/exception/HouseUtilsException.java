@@ -1,6 +1,6 @@
 package com.example.houseutils.exception;
 
-import lombok.AllArgsConstructor;
+import com.example.houseutils.entity.Apartment;
 
 public class HouseUtilsException extends RuntimeException {
     private ErrorCode errorCode;
